@@ -16,6 +16,9 @@
 		19AAC61224768AA500681890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61124768AA500681890 /* main.m */; };
 		19AAC61C24768AA600681890 /* LearnProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61B24768AA600681890 /* LearnProjectTests.m */; };
 		19AAC62724768AA600681890 /* LearnProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC62624768AA600681890 /* LearnProjectUITests.m */; };
+		19DC7CD62498611F00A548FE /* XNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DC7CD52498611F00A548FE /* XNPerson.m */; };
+		19DC7CD92498614400A548FE /* XNPerson+Test01.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DC7CD82498614400A548FE /* XNPerson+Test01.m */; };
+		19DC7CDC2498615600A548FE /* XNPerson+Test02.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DC7CDB2498615600A548FE /* XNPerson+Test02.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,14 @@
 		19AAC62224768AA600681890 /* LearnProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AAC62624768AA600681890 /* LearnProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnProjectUITests.m; sourceTree = "<group>"; };
 		19AAC62824768AA600681890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DC7CD42498611F00A548FE /* XNPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNPerson.h; sourceTree = "<group>"; };
+		19DC7CD52498611F00A548FE /* XNPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNPerson.m; sourceTree = "<group>"; };
+		19DC7CD72498614400A548FE /* XNPerson+Test01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XNPerson+Test01.h"; sourceTree = "<group>"; };
+		19DC7CD82498614400A548FE /* XNPerson+Test01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XNPerson+Test01.m"; sourceTree = "<group>"; };
+		19DC7CDA2498615600A548FE /* XNPerson+Test02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XNPerson+Test02.h"; sourceTree = "<group>"; };
+		19DC7CDB2498615600A548FE /* XNPerson+Test02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XNPerson+Test02.m"; sourceTree = "<group>"; };
+		19DC7CDD249863E100A548FE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		19DC7CDF2498653000A548FE /* XNPerson+Test01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "XNPerson+Test01.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +121,19 @@
 				19AAC60324768AA100681890 /* SceneDelegate.m */,
 				19AAC60524768AA100681890 /* ViewController.h */,
 				19AAC60624768AA100681890 /* ViewController.m */,
+				19DC7CD42498611F00A548FE /* XNPerson.h */,
+				19DC7CD52498611F00A548FE /* XNPerson.m */,
+				19DC7CD72498614400A548FE /* XNPerson+Test01.h */,
+				19DC7CD82498614400A548FE /* XNPerson+Test01.m */,
+				19DC7CDF2498653000A548FE /* XNPerson+Test01.cpp */,
+				19DC7CDA2498615600A548FE /* XNPerson+Test02.h */,
+				19DC7CDB2498615600A548FE /* XNPerson+Test02.m */,
 				19AAC60824768AA100681890 /* Main.storyboard */,
 				19AAC60B24768AA500681890 /* Assets.xcassets */,
 				19AAC60D24768AA500681890 /* LaunchScreen.storyboard */,
 				19AAC61024768AA500681890 /* Info.plist */,
 				19AAC61124768AA500681890 /* main.m */,
+				19DC7CDD249863E100A548FE /* main.cpp */,
 			);
 			path = LearnProject;
 			sourceTree = "<group>";
@@ -268,9 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				19AAC60724768AA100681890 /* ViewController.m in Sources */,
+				19DC7CDC2498615600A548FE /* XNPerson+Test02.m in Sources */,
+				19DC7CD92498614400A548FE /* XNPerson+Test01.m in Sources */,
 				19AAC60124768AA100681890 /* AppDelegate.m in Sources */,
 				19AAC61224768AA500681890 /* main.m in Sources */,
 				19AAC60424768AA100681890 /* SceneDelegate.m in Sources */,
+				19DC7CD62498611F00A548FE /* XNPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

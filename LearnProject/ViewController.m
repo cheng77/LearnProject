@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "XNPerson.h"
+#import "XNPerson+Test01.h"
+#import "XNPerson+Test02.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    XNPerson * person = [[XNPerson alloc] init];
+    [person run];
+    
+    
 }
 
 

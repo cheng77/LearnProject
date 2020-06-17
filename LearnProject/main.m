@@ -7,13 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "XNPerson.h"
+#import "XNPerson+Test01.h"
+#import "XNPerson+Test02.h"
 
 int main(int argc, char * argv[]) {
-    NSString * appDelegateClassName;
-    @autoreleasepool {
-        // Setup code that might create autoreleased objects goes here.
-        appDelegateClassName = NSStringFromClass([AppDelegate class]);
-    }
-    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
+    XNPerson * person = [[XNPerson alloc] init];
+    [person run];
 }
+/*
+ NSString * appDelegateClassName;
+ @autoreleasepool {
+     // Setup code that might create autoreleased objects goes here.
+     appDelegateClassName = NSStringFromClass([AppDelegate class]);
+ }
+ return UIApplicationMain(argc, argv, nil, appDelegateClassName);
+ */
