@@ -10,6 +10,7 @@
 #import "XNPerson.h"
 #import "XNPerson+Test01.h"
 #import "XNPerson+Test02.h"
+
 @interface ViewController ()
 
 @end
@@ -19,8 +20,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    XNPerson * person = [[XNPerson alloc] init];
-    [person run];
+    
+    
+//    XNPerson * person = [[XNPerson alloc] init];
+//    [person run];
     
     
 }

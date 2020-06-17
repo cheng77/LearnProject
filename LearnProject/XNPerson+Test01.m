@@ -27,4 +27,12 @@
     NSLog(@"调用分类Test01的run方法");
 }
 
++ (void)load{
+    NSLog(@"调用Test01+load方法");
+}
+
++(void)initialize{
+    NSLog(@"调用:Test01 initialize方法");
+}
+
 @end

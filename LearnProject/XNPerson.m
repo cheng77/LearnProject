@@ -13,5 +13,11 @@
     NSLog(@"调用XNPerson的run方法");
 }
 
++(void)load{
+    NSLog(@"调用:XNPerson load方法");
+}
 
++(void)initialize{
+    NSLog(@"调用:XNPerson initialize方法");
+}
 @end
