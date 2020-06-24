@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192B9B2A24A1E0FA00375E45 /* XNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 192B9B2924A1E0FA00375E45 /* XNPerson.m */; };
+		19772D2E24A3328E00247033 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 19772D2D24A3328E00247033 /* ViewController2.m */; };
 		19AAC60124768AA100681890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC60024768AA100681890 /* AppDelegate.m */; };
 		19AAC60424768AA100681890 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC60324768AA100681890 /* SceneDelegate.m */; };
 		19AAC60724768AA100681890 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC60624768AA100681890 /* ViewController.m */; };
@@ -16,6 +18,7 @@
 		19AAC61224768AA500681890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61124768AA500681890 /* main.m */; };
 		19AAC61C24768AA600681890 /* LearnProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61B24768AA600681890 /* LearnProjectTests.m */; };
 		19AAC62724768AA600681890 /* LearnProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC62624768AA600681890 /* LearnProjectUITests.m */; };
+		19FF1119249DF72E002969C0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FF1118249DF72E002969C0 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		192B9B2824A1E0FA00375E45 /* XNPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNPerson.h; sourceTree = "<group>"; };
+		192B9B2924A1E0FA00375E45 /* XNPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNPerson.m; sourceTree = "<group>"; };
+		19772D2C24A3328E00247033 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		19772D2D24A3328E00247033 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		19772D2F24A3344100247033 /* ViewController2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewController2.cpp; sourceTree = "<group>"; };
 		19AAC5FC24768AA100681890 /* LearnProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AAC5FF24768AA100681890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19AAC60024768AA100681890 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +62,9 @@
 		19AAC62224768AA600681890 /* LearnProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AAC62624768AA600681890 /* LearnProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnProjectUITests.m; sourceTree = "<group>"; };
 		19AAC62824768AA600681890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FF1117249DF72E002969C0 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		19FF1118249DF72E002969C0 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		19FF111A249EFCEB002969C0 /* ViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewController.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +121,19 @@
 				19AAC60324768AA100681890 /* SceneDelegate.m */,
 				19AAC60524768AA100681890 /* ViewController.h */,
 				19AAC60624768AA100681890 /* ViewController.m */,
+				19772D2C24A3328E00247033 /* ViewController2.h */,
+				19772D2D24A3328E00247033 /* ViewController2.m */,
+				19772D2F24A3344100247033 /* ViewController2.cpp */,
+				192B9B2824A1E0FA00375E45 /* XNPerson.h */,
+				192B9B2924A1E0FA00375E45 /* XNPerson.m */,
+				19FF111A249EFCEB002969C0 /* ViewController.cpp */,
 				19AAC60824768AA100681890 /* Main.storyboard */,
 				19AAC60B24768AA500681890 /* Assets.xcassets */,
 				19AAC60D24768AA500681890 /* LaunchScreen.storyboard */,
 				19AAC61024768AA500681890 /* Info.plist */,
 				19AAC61124768AA500681890 /* main.m */,
+				19FF1117249DF72E002969C0 /* Person.h */,
+				19FF1118249DF72E002969C0 /* Person.m */,
 			);
 			path = LearnProject;
 			sourceTree = "<group>";
@@ -267,8 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19772D2E24A3328E00247033 /* ViewController2.m in Sources */,
 				19AAC60724768AA100681890 /* ViewController.m in Sources */,
 				19AAC60124768AA100681890 /* AppDelegate.m in Sources */,
+				192B9B2A24A1E0FA00375E45 /* XNPerson.m in Sources */,
+				19FF1119249DF72E002969C0 /* Person.m in Sources */,
 				19AAC61224768AA500681890 /* main.m in Sources */,
 				19AAC60424768AA100681890 /* SceneDelegate.m in Sources */,
 			);

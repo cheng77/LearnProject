@@ -16,4 +16,19 @@ int main(int argc, char * argv[]) {
         appDelegateClassName = NSStringFromClass([AppDelegate class]);
     }
     return UIApplicationMain(argc, argv, nil, appDelegateClassName);
+    
+//    void (^TestBlock)(void) = ^{
+//        NSLog(@"调用");
+//        NSLog(@"调用");
+//        NSLog(@"调用");
+//    };
+//    TestBlock();
+//
+//    void (^TestBlock2)(void) = ^{
+//        NSLog(@"调用");
+//        NSLog(@"调用");
+//        NSLog(@"调用");
+//    };
+//    TestBlock2();
+    
 }
