@@ -10,13 +10,17 @@
 		1960C91224A9EA9C005762E3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1960C91124A9EA9C005762E3 /* Person.m */; };
 		19AAC60124768AA100681890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC60024768AA100681890 /* AppDelegate.m */; };
 		19AAC60424768AA100681890 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC60324768AA100681890 /* SceneDelegate.m */; };
-		19AAC60724768AA100681890 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC60624768AA100681890 /* ViewController.mm */; };
+		19AAC60724768AA100681890 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC60624768AA100681890 /* ViewController.m */; };
 		19AAC60A24768AA100681890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AAC60824768AA100681890 /* Main.storyboard */; };
 		19AAC60C24768AA500681890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AAC60B24768AA500681890 /* Assets.xcassets */; };
 		19AAC60F24768AA500681890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AAC60D24768AA500681890 /* LaunchScreen.storyboard */; };
 		19AAC61224768AA500681890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61124768AA500681890 /* main.m */; };
 		19AAC61C24768AA600681890 /* LearnProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61B24768AA600681890 /* LearnProjectTests.m */; };
 		19AAC62724768AA600681890 /* LearnProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC62624768AA600681890 /* LearnProjectUITests.m */; };
+		2FCAE87F24AF15E60086AB28 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAE87E24AF15E60086AB28 /* Son.m */; };
+		2FCAE88424AF24460086AB28 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAE88324AF24460086AB28 /* Cat.m */; };
+		2FCAE88724AF30160086AB28 /* SubCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAE88624AF30160086AB28 /* SubCat.m */; };
+		2FE7810A24AF3265000E62A5 /* NSObject+YNAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE7810924AF3265000E62A5 /* NSObject+YNAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +50,7 @@
 		19AAC60224768AA100681890 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		19AAC60324768AA100681890 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		19AAC60524768AA100681890 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		19AAC60624768AA100681890 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		19AAC60624768AA100681890 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		19AAC60924768AA100681890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19AAC60B24768AA500681890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19AAC60E24768AA500681890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 		19AAC62224768AA600681890 /* LearnProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AAC62624768AA600681890 /* LearnProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnProjectUITests.m; sourceTree = "<group>"; };
 		19AAC62824768AA600681890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB24BBD24B3153C00D3D00C /* ViewController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ViewController.cpp; sourceTree = "<group>"; };
+		2FCAE87D24AF15E60086AB28 /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		2FCAE87E24AF15E60086AB28 /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		2FCAE88224AF24460086AB28 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		2FCAE88324AF24460086AB28 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		2FCAE88524AF30160086AB28 /* SubCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubCat.h; sourceTree = "<group>"; };
+		2FCAE88624AF30160086AB28 /* SubCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubCat.m; sourceTree = "<group>"; };
+		2FE7810824AF3265000E62A5 /* NSObject+YNAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YNAdd.h"; sourceTree = "<group>"; };
+		2FE7810924AF3265000E62A5 /* NSObject+YNAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YNAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +127,15 @@
 				19AAC60324768AA100681890 /* SceneDelegate.m */,
 				1960C91324AA0287005762E3 /* MJClassInfo.h */,
 				19AAC60524768AA100681890 /* ViewController.h */,
-				19AAC60624768AA100681890 /* ViewController.mm */,
-				1960C91024A9EA9C005762E3 /* Person.h */,
-				1960C91124A9EA9C005762E3 /* Person.m */,
+				19AAC60624768AA100681890 /* ViewController.m */,
+				2FB24BBD24B3153C00D3D00C /* ViewController.cpp */,
+				2FCAE88524AF30160086AB28 /* SubCat.h */,
+				2FCAE88624AF30160086AB28 /* SubCat.m */,
+				2FCAE88224AF24460086AB28 /* Cat.h */,
+				2FCAE88324AF24460086AB28 /* Cat.m */,
+				2FE7810824AF3265000E62A5 /* NSObject+YNAdd.h */,
+				2FE7810924AF3265000E62A5 /* NSObject+YNAdd.m */,
+				2FCAE88024AF1E170086AB28 /* Super&&Self区别 */,
 				19AAC60824768AA100681890 /* Main.storyboard */,
 				19AAC60B24768AA500681890 /* Assets.xcassets */,
 				19AAC60D24768AA500681890 /* LaunchScreen.storyboard */,
@@ -142,6 +161,17 @@
 				19AAC62824768AA600681890 /* Info.plist */,
 			);
 			path = LearnProjectUITests;
+			sourceTree = "<group>";
+		};
+		2FCAE88024AF1E170086AB28 /* Super&&Self区别 */ = {
+			isa = PBXGroup;
+			children = (
+				1960C91124A9EA9C005762E3 /* Person.m */,
+				2FCAE87D24AF15E60086AB28 /* Son.h */,
+				2FCAE87E24AF15E60086AB28 /* Son.m */,
+				1960C91024A9EA9C005762E3 /* Person.h */,
+			);
+			path = "Super&&Self区别";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,9 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19AAC60724768AA100681890 /* ViewController.mm in Sources */,
+				2FCAE87F24AF15E60086AB28 /* Son.m in Sources */,
+				19AAC60724768AA100681890 /* ViewController.m in Sources */,
+				2FCAE88424AF24460086AB28 /* Cat.m in Sources */,
 				19AAC60124768AA100681890 /* AppDelegate.m in Sources */,
+				2FE7810A24AF3265000E62A5 /* NSObject+YNAdd.m in Sources */,
 				1960C91224A9EA9C005762E3 /* Person.m in Sources */,
+				2FCAE88724AF30160086AB28 /* SubCat.m in Sources */,
 				19AAC61224768AA500681890 /* main.m in Sources */,
 				19AAC60424768AA100681890 /* SceneDelegate.m in Sources */,
 			);
