@@ -16,6 +16,17 @@
 		19AAC61224768AA500681890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61124768AA500681890 /* main.m */; };
 		19AAC61C24768AA600681890 /* LearnProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61B24768AA600681890 /* LearnProjectTests.m */; };
 		19AAC62724768AA600681890 /* LearnProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC62624768AA600681890 /* LearnProjectUITests.m */; };
+		2F04B06124D3ACD4003CA45A /* NSSemaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F04B06024D3ACD4003CA45A /* NSSemaphoreDemo.m */; };
+		2F04B06424D3AEF8003CA45A /* SynchronizedDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F04B06324D3AEF8003CA45A /* SynchronizedDemo.m */; };
+		2F54BB1924D11D2600E83A4D /* XNBaseDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54BB1824D11D2600E83A4D /* XNBaseDemo.m */; };
+		2F54BB1D24D11E4B00E83A4D /* OSSpinLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54BB1C24D11E4B00E83A4D /* OSSpinLockDemo.m */; };
+		2F54BB2024D126BD00E83A4D /* OSUnfairDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54BB1F24D126BD00E83A4D /* OSUnfairDemo.m */; };
+		2F54BB2324D12A1A00E83A4D /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54BB2224D12A1A00E83A4D /* MutexDemo.m */; };
+		2F54BB2624D1479E00E83A4D /* MutexDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54BB2524D1479E00E83A4D /* MutexDemo2.m */; };
+		2F54BB2924D159A300E83A4D /* MutexDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54BB2824D159A300E83A4D /* MutexDemo3.m */; };
+		2F54BB2C24D15BF600E83A4D /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54BB2B24D15BF600E83A4D /* NSLockDemo.m */; };
+		2F54BB2F24D161A800E83A4D /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54BB2E24D161A800E83A4D /* NSConditionDemo.m */; };
+		2FAAF1F724D2CA090068C281 /* XNConditonLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAAF1F624D2CA090068C281 /* XNConditonLockDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +65,28 @@
 		19AAC62224768AA600681890 /* LearnProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AAC62624768AA600681890 /* LearnProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnProjectUITests.m; sourceTree = "<group>"; };
 		19AAC62824768AA600681890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F04B05F24D3ACD4003CA45A /* NSSemaphoreDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSSemaphoreDemo.h; sourceTree = "<group>"; };
+		2F04B06024D3ACD4003CA45A /* NSSemaphoreDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSSemaphoreDemo.m; sourceTree = "<group>"; };
+		2F04B06224D3AEF8003CA45A /* SynchronizedDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynchronizedDemo.h; sourceTree = "<group>"; };
+		2F04B06324D3AEF8003CA45A /* SynchronizedDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynchronizedDemo.m; sourceTree = "<group>"; };
+		2F54BB1724D11D2600E83A4D /* XNBaseDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNBaseDemo.h; sourceTree = "<group>"; };
+		2F54BB1824D11D2600E83A4D /* XNBaseDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNBaseDemo.m; sourceTree = "<group>"; };
+		2F54BB1B24D11E4B00E83A4D /* OSSpinLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo.h; sourceTree = "<group>"; };
+		2F54BB1C24D11E4B00E83A4D /* OSSpinLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo.m; sourceTree = "<group>"; };
+		2F54BB1E24D126BD00E83A4D /* OSUnfairDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSUnfairDemo.h; sourceTree = "<group>"; };
+		2F54BB1F24D126BD00E83A4D /* OSUnfairDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSUnfairDemo.m; sourceTree = "<group>"; };
+		2F54BB2124D12A1A00E83A4D /* MutexDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo.h; sourceTree = "<group>"; };
+		2F54BB2224D12A1A00E83A4D /* MutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo.m; sourceTree = "<group>"; };
+		2F54BB2424D1479E00E83A4D /* MutexDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo2.h; sourceTree = "<group>"; };
+		2F54BB2524D1479E00E83A4D /* MutexDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo2.m; sourceTree = "<group>"; };
+		2F54BB2724D159A300E83A4D /* MutexDemo3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo3.h; sourceTree = "<group>"; };
+		2F54BB2824D159A300E83A4D /* MutexDemo3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo3.m; sourceTree = "<group>"; };
+		2F54BB2A24D15BF600E83A4D /* NSLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
+		2F54BB2B24D15BF600E83A4D /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
+		2F54BB2D24D161A800E83A4D /* NSConditionDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionDemo.h; sourceTree = "<group>"; };
+		2F54BB2E24D161A800E83A4D /* NSConditionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
+		2FAAF1F524D2CA090068C281 /* XNConditonLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNConditonLockDemo.h; sourceTree = "<group>"; };
+		2FAAF1F624D2CA090068C281 /* XNConditonLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNConditonLockDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +117,7 @@
 		19AAC5F324768AA100681890 = {
 			isa = PBXGroup;
 			children = (
+				2F54BB1A24D11E1D00E83A4D /* 锁 */,
 				19AAC5FE24768AA100681890 /* LearnProject */,
 				19AAC61A24768AA600681890 /* LearnProjectTests */,
 				19AAC62524768AA600681890 /* LearnProjectUITests */,
@@ -110,6 +144,8 @@
 				19AAC60324768AA100681890 /* SceneDelegate.m */,
 				19AAC60524768AA100681890 /* ViewController.h */,
 				19AAC60624768AA100681890 /* ViewController.m */,
+				2F54BB1724D11D2600E83A4D /* XNBaseDemo.h */,
+				2F54BB1824D11D2600E83A4D /* XNBaseDemo.m */,
 				19AAC60824768AA100681890 /* Main.storyboard */,
 				19AAC60B24768AA500681890 /* Assets.xcassets */,
 				19AAC60D24768AA500681890 /* LaunchScreen.storyboard */,
@@ -135,6 +171,33 @@
 				19AAC62824768AA600681890 /* Info.plist */,
 			);
 			path = LearnProjectUITests;
+			sourceTree = "<group>";
+		};
+		2F54BB1A24D11E1D00E83A4D /* 锁 */ = {
+			isa = PBXGroup;
+			children = (
+				2F54BB1B24D11E4B00E83A4D /* OSSpinLockDemo.h */,
+				2F54BB1C24D11E4B00E83A4D /* OSSpinLockDemo.m */,
+				2F54BB1E24D126BD00E83A4D /* OSUnfairDemo.h */,
+				2F54BB1F24D126BD00E83A4D /* OSUnfairDemo.m */,
+				2F54BB2124D12A1A00E83A4D /* MutexDemo.h */,
+				2F54BB2224D12A1A00E83A4D /* MutexDemo.m */,
+				2F54BB2424D1479E00E83A4D /* MutexDemo2.h */,
+				2F54BB2524D1479E00E83A4D /* MutexDemo2.m */,
+				2F54BB2724D159A300E83A4D /* MutexDemo3.h */,
+				2F54BB2824D159A300E83A4D /* MutexDemo3.m */,
+				2F54BB2A24D15BF600E83A4D /* NSLockDemo.h */,
+				2F54BB2B24D15BF600E83A4D /* NSLockDemo.m */,
+				2F54BB2D24D161A800E83A4D /* NSConditionDemo.h */,
+				2F54BB2E24D161A800E83A4D /* NSConditionDemo.m */,
+				2FAAF1F524D2CA090068C281 /* XNConditonLockDemo.h */,
+				2FAAF1F624D2CA090068C281 /* XNConditonLockDemo.m */,
+				2F04B05F24D3ACD4003CA45A /* NSSemaphoreDemo.h */,
+				2F04B06024D3ACD4003CA45A /* NSSemaphoreDemo.m */,
+				2F04B06224D3AEF8003CA45A /* SynchronizedDemo.h */,
+				2F04B06324D3AEF8003CA45A /* SynchronizedDemo.m */,
+			);
+			path = "锁";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +330,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F54BB2924D159A300E83A4D /* MutexDemo3.m in Sources */,
+				2FAAF1F724D2CA090068C281 /* XNConditonLockDemo.m in Sources */,
 				19AAC60724768AA100681890 /* ViewController.m in Sources */,
 				19AAC60124768AA100681890 /* AppDelegate.m in Sources */,
+				2F54BB2024D126BD00E83A4D /* OSUnfairDemo.m in Sources */,
+				2F54BB2624D1479E00E83A4D /* MutexDemo2.m in Sources */,
+				2F04B06424D3AEF8003CA45A /* SynchronizedDemo.m in Sources */,
+				2F54BB2F24D161A800E83A4D /* NSConditionDemo.m in Sources */,
 				19AAC61224768AA500681890 /* main.m in Sources */,
 				19AAC60424768AA100681890 /* SceneDelegate.m in Sources */,
+				2F54BB1924D11D2600E83A4D /* XNBaseDemo.m in Sources */,
+				2F54BB2324D12A1A00E83A4D /* MutexDemo.m in Sources */,
+				2F54BB1D24D11E4B00E83A4D /* OSSpinLockDemo.m in Sources */,
+				2F04B06124D3ACD4003CA45A /* NSSemaphoreDemo.m in Sources */,
+				2F54BB2C24D15BF600E83A4D /* NSLockDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
