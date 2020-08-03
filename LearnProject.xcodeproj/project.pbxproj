@@ -16,6 +16,7 @@
 		19AAC61224768AA500681890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61124768AA500681890 /* main.m */; };
 		19AAC61C24768AA600681890 /* LearnProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61B24768AA600681890 /* LearnProjectTests.m */; };
 		19AAC62724768AA600681890 /* LearnProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC62624768AA600681890 /* LearnProjectUITests.m */; };
+		2FE1B26524D7AF180017BD1C /* XNTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1B26424D7AF180017BD1C /* XNTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		19AAC62224768AA600681890 /* LearnProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AAC62624768AA600681890 /* LearnProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnProjectUITests.m; sourceTree = "<group>"; };
 		19AAC62824768AA600681890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE1B26324D7AF180017BD1C /* XNTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNTimer.h; sourceTree = "<group>"; };
+		2FE1B26424D7AF180017BD1C /* XNTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				19AAC60324768AA100681890 /* SceneDelegate.m */,
 				19AAC60524768AA100681890 /* ViewController.h */,
 				19AAC60624768AA100681890 /* ViewController.m */,
+				2FE1B26324D7AF180017BD1C /* XNTimer.h */,
+				2FE1B26424D7AF180017BD1C /* XNTimer.m */,
 				19AAC60824768AA100681890 /* Main.storyboard */,
 				19AAC60B24768AA500681890 /* Assets.xcassets */,
 				19AAC60D24768AA500681890 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19AAC60724768AA100681890 /* ViewController.m in Sources */,
+				2FE1B26524D7AF180017BD1C /* XNTimer.m in Sources */,
 				19AAC60124768AA100681890 /* AppDelegate.m in Sources */,
 				19AAC61224768AA500681890 /* main.m in Sources */,
 				19AAC60424768AA100681890 /* SceneDelegate.m in Sources */,
@@ -440,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKJLL77NDJ;
 				INFOPLIST_FILE = LearnProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKJLL77NDJ;
 				INFOPLIST_FILE = LearnProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
