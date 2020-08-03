@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ViewController2.h"
 @interface ViewController ()
 
 @end
@@ -16,8 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    ViewController2* vc = [[ViewController2 alloc]init];
+    UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:nav animated:YES completion:nil];
+}
 
 @end

@@ -16,6 +16,9 @@
 		19AAC61224768AA500681890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61124768AA500681890 /* main.m */; };
 		19AAC61C24768AA600681890 /* LearnProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC61B24768AA600681890 /* LearnProjectTests.m */; };
 		19AAC62724768AA600681890 /* LearnProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AAC62624768AA600681890 /* LearnProjectUITests.m */; };
+		2F81CC9724D5461000198817 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F81CC9624D5461000198817 /* ViewController2.m */; };
+		2F81CC9A24D5530100198817 /* NSTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F81CC9924D5530100198817 /* NSTarget.m */; };
+		2F81CC9D24D5601C00198817 /* MyProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F81CC9C24D5601C00198817 /* MyProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		19AAC62224768AA600681890 /* LearnProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AAC62624768AA600681890 /* LearnProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnProjectUITests.m; sourceTree = "<group>"; };
 		19AAC62824768AA600681890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F81CC9524D5461000198817 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		2F81CC9624D5461000198817 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		2F81CC9824D5530100198817 /* NSTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTarget.h; sourceTree = "<group>"; };
+		2F81CC9924D5530100198817 /* NSTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTarget.m; sourceTree = "<group>"; };
+		2F81CC9B24D5601C00198817 /* MyProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProxy.h; sourceTree = "<group>"; };
+		2F81CC9C24D5601C00198817 /* MyProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				19AAC60324768AA100681890 /* SceneDelegate.m */,
 				19AAC60524768AA100681890 /* ViewController.h */,
 				19AAC60624768AA100681890 /* ViewController.m */,
+				2F81CC9524D5461000198817 /* ViewController2.h */,
+				2F81CC9624D5461000198817 /* ViewController2.m */,
+				2F81CC9B24D5601C00198817 /* MyProxy.h */,
+				2F81CC9C24D5601C00198817 /* MyProxy.m */,
+				2F81CC9824D5530100198817 /* NSTarget.h */,
+				2F81CC9924D5530100198817 /* NSTarget.m */,
 				19AAC60824768AA100681890 /* Main.storyboard */,
 				19AAC60B24768AA500681890 /* Assets.xcassets */,
 				19AAC60D24768AA500681890 /* LaunchScreen.storyboard */,
@@ -269,8 +284,11 @@
 			files = (
 				19AAC60724768AA100681890 /* ViewController.m in Sources */,
 				19AAC60124768AA100681890 /* AppDelegate.m in Sources */,
+				2F81CC9724D5461000198817 /* ViewController2.m in Sources */,
+				2F81CC9D24D5601C00198817 /* MyProxy.m in Sources */,
 				19AAC61224768AA500681890 /* main.m in Sources */,
 				19AAC60424768AA100681890 /* SceneDelegate.m in Sources */,
+				2F81CC9A24D5530100198817 /* NSTarget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
